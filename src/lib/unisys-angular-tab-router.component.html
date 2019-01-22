@@ -1,0 +1,7 @@
+<div class="row">
+  <div [ngClass]="{'vertical':vertical, 'col-xs-12':!vertical}">
+    <ul>
+      <li *ngFor="let item of menuList"><a [routerLink]="item.routerLink" routerLinkActive="active" *ngxPermissionsOnly="item.permission"><span translate>{{ item.translation}}</span></a></li>
+    </ul>
+  </div>
+</div>

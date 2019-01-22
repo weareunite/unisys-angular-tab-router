@@ -1,7 +1,7 @@
 # UniSys Angular Tab Router
 #### Installation
 Install library by running command
-> npm i @weareunite/unisys-angular-form-group
+> npm i @weareunite/unisys-angular-tab-router
 #### Inputs
 Name | Type | Description
 --- | --- | ---
@@ -12,5 +12,5 @@ Name | Type | Description
 `rows` | *number* | Number of rows for textarea type
 `customClass` | *string* | Custom class for wrapper div
 #### Component selector
-> lib-unisys-angular-form-group
+> lib-unisys-angular-tab-router
 
