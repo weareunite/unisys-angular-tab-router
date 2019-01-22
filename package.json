@@ -20,7 +20,7 @@
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "ngx-permissions": ">=5.0.0"
   }
 }
