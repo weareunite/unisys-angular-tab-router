@@ -1,6 +1,8 @@
 {
-  "name": "unisys-angular-tab-router",
+  "name": "@weareunite/unisys-angular-tab-router",
   "version": "0.0.1",
+  "author": "UNITE s.r.o.",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
