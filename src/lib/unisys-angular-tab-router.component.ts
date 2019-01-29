@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {MenuItem} from './models';
+import {TranslateService} from '@ngx-translate/core';
 
 
 @Component({
@@ -11,7 +12,11 @@ export class UnisysAngularTabRouterComponent implements OnInit {
   @Input('menuList') menuList: MenuItem;
   @Input('vertical') vertical: boolean = false;
 
-  constructor() {
+  constructor(
+    private readonly translate: TranslateService
+  ) {
+    translate.setDefaultLang('sk');
+    translate.use('sk');
   }
 
   ngOnInit() {
