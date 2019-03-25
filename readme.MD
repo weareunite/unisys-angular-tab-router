@@ -18,6 +18,7 @@ Name | Type | Description
 --- | --- | ---
 `menuList` | *MenuList[]* | Menu items
 `vertical` | *boolean* | Set tabs to vertical
+`routerLinkActiveOptions` | *any* | Settings for routerLinkActive
 #### Component selector
 > lib-unisys-angular-tab-router
 
