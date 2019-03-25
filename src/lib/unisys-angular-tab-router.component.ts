@@ -1,6 +1,6 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {MenuItem} from './models';
-import {TranslateService} from '@ngx-translate/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { MenuItem } from './models';
+import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
@@ -10,7 +10,7 @@ import {TranslateService} from '@ngx-translate/core';
 })
 export class UnisysAngularTabRouterComponent implements OnInit {
   @Input('menuList') menuList: MenuItem;
-  @Input('routerLinkActiveOptions') routerLinkActiveOptions;
+  @Input('routerLinkActiveOptions') routerLinkActiveOptions = {exact: true};
   @Input('vertical') vertical: boolean = false;
 
   constructor(
